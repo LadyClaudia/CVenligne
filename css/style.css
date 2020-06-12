@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background: url(../img/fond1.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background: #1d1d1d;
+    color: white;
+}
+
+nav {
+    background: white;
+    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+    font-size: 1.1em;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    display: inline;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+
+nav li:hover {
+    font-weight: bold;
+}
+
+main {
+    background: #f4f7f6;
+    margin: 2px auto;
+    width: 80%;
+    opacity: .7;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 25px auto;
+    width: 400px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+h2:before {
+    color: grey;
+    content: "« ";
+}
+
+h2:after {
+    color: grey;
+    content: " »";
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+blockquote {
+    font-family: 'Mr De Haviland', cursive;
+    font-size: 3em;
+}
+
+mark {
+    background: linear-gradient(60deg, rgba(173,169,238,0.6) 30%, rgba(233,161,244,0.5970763305322129) 70%);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+img[src="img/cafeeric.JPG"] {
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+img[src="img/cafeeric.JPG"]:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.3s;
+}
+
+section li {
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+section ul {
+    text-align: left;
+}
+
+section > ul > li {
+    padding-bottom: 20px;
+}
+
+footer {
+    background: #1d1d1d;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+/* CLASSES */
+
+.imgCitation {
+    background: url(../img/fondCitation.png) center no-repeat;
+    background-size: contain;
+    padding: 70px;
+}
+.col1 {
+    float: left;
+    width: 33%;
+
+}
+.col2 {
+    float: left;
+    width: 33%;
+}
+.col3 {
+    float: left;
+    width: 33%;
+}
+
+.row {
+    padding-bottom: 175px;
+    text-align-last: center;
+}
+
+.bgheader {
+    background: url(../img/jessica.png) right no-repeat;
+    background-size: contain;
+    height: 350px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.citation {
+    text-align: center;
+}
+
+.paralax {
+    background-image: url(../img/fondCitation.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: .2em;
+    width: 50%;
+    margin: auto;
+}
+
+.metier {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+
+.picture {
+    height: 300px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.projet {
+    background-color: white;
+    border: 0px black solid;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    display: inline-block;
+    margin: 30px;
+    padding-bottom: 15px;
+    overflow: hidden;
+    width: 400px;
+}
+
+.gif {
+    width: 800px;
+}
+
+.pageproject ul {
+    text-align: center;
+    padding: 0;
+}
+
+.projet:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.3s;
+}
+
+.projet .date-project {
+    font-size: 0.7em;
+}
+
+.projet img {
+    min-width: 400px;
+    height: 266px;
+}
+
+.projet span {
+    display: block;
+    text-transform: uppercase;
+}
+
+.separator {
+    background-color: #999999;
+    display: block;
+    height: 1px;
+    margin: 30px auto;
+    width: 175px;
+}
+
+
+/* ID */
+#contact {
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+#projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* MEDIA */
+@media all and (max-width: 1000px) {
+    .projet {
+        width: 100%;
+    }
+    .projet img {
+        height: auto;
+        min-width: auto;
+        width: 100%;
+    }
+    .projet .picture {
+        height: auto;
+        width: 100%;
+    }
+    header h2 {
+        width: 90%;
+    }
+}

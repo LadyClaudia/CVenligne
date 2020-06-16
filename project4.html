@@ -11,7 +11,7 @@
         <link rel="icon" type="image/jpg" href="img/licorne.jpg">
         <title>Jessica Viel | Projet 4</title>
     </head>
-    <body>
+    <body id="haut">
 
         <!-- Entête de la page -->
         <header>
@@ -33,49 +33,62 @@
 
         <!-- Main -->
         <main>
+            <div class="overlay"></div>
             <!-- Projet -->
             <section class="pageproject">
                 <h2>Les Cafés d'Eric</h2>
                 <span class="separator"></span>
                 <h3>Création du site web des "Cafés d'Éric", boutique à Orléans</h3> 
-                <h4>Objectifs :</h4> 
-                <ul>
-                    <li>Présentation de l'activité</li>
-                    <li>Présentation de l'équipe</li>
-                    <li>Formulaire de contact</li>
-                    <li>Console d'administration du contenu du site</li>
-                    <li>Le plus de contenu administrable possible</li>
-                </ul>
+                <div class="container1">
+                    <div class="column1">
+                        <h4>Objectifs :</h4> 
+                        <ul>
+                            <li>Présentation de l'activité</li>
+                            <li>Présentation de l'équipe</li>
+                            <li>Formulaire de contact</li>
+                            <li>Console d'administration du contenu du site</li>
+                            <li>Le plus de contenu administrable possible</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column2">
+                        <h4>Langages - Framework :</h4>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>SCSS</li>
+                            <li>Bootstrap 4</li>
+                            <li>PHP 7</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column3">
+                        <h4>Contributeurs :</h4>
+                        <ul>
+                            <li><a href="https://github.com/Candicedb">Candice Bourguignon</a></li>
+                            <li><a href="https://github.com/melissaviltet">Mélissa Viltet</a></li>
+                            <li><a href="https://github.com/amadrocky">Amadou Kane</a></li>
+                            <li><a href="https://github.com/Hakha44">Julien Delbez</a></li>
+                            <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
+                        </ul>
+                    </div>
+                </div>
                 
-                    
-                <h4>Langages - Framework :</h4>
-                <ul>
-                    <li>HTML 5</li>
-                    <li>SCSS</li>
-                    <li>Bootstrap 4</li>
-                    <li>PHP 7</li>
-                </ul>
-                    
-                <h4>Contributeurs :</h4>
-                <ul>
-                    <li><a href="https://github.com/Candicedb">Candice Bourguignon</a></li>
-                    <li><a href="https://github.com/melissaviltet">Mélissa Viltet</a></li>
-                    <li><a href="https://github.com/amadrocky">Amadou Kane</a></li>
-                    <li><a href="https://github.com/Hakha44">Julien Delbez</a></li>
-                    <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
-                </ul>
                 <!-- Lien vers le Github -->
                 <h4><a href="https://github.com/LadyClaudia/orleans-0918-php-cafes-eric"> &raquo; Lien vers le projet &laquo; </a></h4>
                 <!-- Image -->
                 <img src="img/cafeeric.JPG" alt="photo de présentation des café d'eric">
             </section>
-        
+            <div>
+                <a href="#haut" class="buttonRetour"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
         </main>
         
         <!-- Bas de page -->
         <footer>
             <p>2020 &copy; Jessica Viel</p>
         </footer>
-        
+
+            <!-- Script -->
+            <script src="https://kit.fontawesome.com/e58bdc1b83.js" crossorigin="anonymous"></script>
     </body>
 </html>

@@ -11,7 +11,7 @@
         <link rel="icon" type="image/jpg" href="img/licorne.jpg">
         <title>Jessica Viel | Projet 3</title>
     </head>
-    <body>
+    <body id="haut">
 
         <!-- Entête de la page -->
         <header>
@@ -33,43 +33,54 @@
 
         <!-- Main -->
         <main>
+            <div class="overlay"></div>
             <!-- Projet -->
             <section class="pageproject">
                 <h2>La Bernardière</h2>
                 <span class="separator"></span>
-                <h3>Refonte fictive du site web de "La Bernardière", cueillette à Orléans</h3> 
-                <h4>Objectifs :</h4> 
-                <ul>
-                    <li>Site web remis au goût du jour</li>
-                    <li>Ajout de nouvelles fonctionnalités</li>
-                    <li>Ajout d'une interface administrateur</li>
-                </ul>
+                <h3>Refonte fictive du site web de "La Bernardière", cueillette à Orléans</h3>
+
+                <div class="container1">
+                    <div class="column1">
+                        <h4>Objectifs :</h4> 
+                        <ul>
+                            <li>Site web remis au goût du jour</li>
+                            <li>Ajout de nouvelles fonctionnalités</li>
+                            <li>Ajout d'une interface administrateur</li>
+                        </ul>
+                    </div>
+                    <div class="column2">
+                        <h4>Langages - Architechture :</h4>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
+                            <li>Bootstrap 4</li>
+                            <li>Twig</li>
+                            <li>PHP 7</li>
+                            <li>Modèle MVC</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column3">
+                        <h4>Contributeurs :</h4>
+                        <ul>
+                            <li><a href="https://github.com/Guisharko">Guillaume Gallier</a></li>
+                            <li><a href="https://github.com/hellshoxplay">Thierry Stollsteiner</a></li>
+                            <li><a href="https://github.com/Julomontiti">Julien Montigny</a></li>
+                            <li><a href="https://github.com/Vigi3">Vincent Reinoso</a></li>
+                            <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
+                        </ul>
+                    </div>
+                </div>
                 
-                    
-                <h4>Langages - Architechture :</h4>
-                <ul>
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>Bootstrap 4</li>
-                    <li>Twig</li>
-                    <li>PHP 7</li>
-                    <li>Modèle MVC</li>
-                </ul>
-                    
-                <h4>Contributeurs :</h4>
-                <ul>
-                    <li><a href="https://github.com/Guisharko">Guillaume Gallier</a></li>
-                    <li><a href="https://github.com/hellshoxplay">Thierry Stollsteiner</a></li>
-                    <li><a href="https://github.com/Julomontiti">Julien Montigny</a></li>
-                    <li><a href="https://github.com/Vigi3">Vincent Reinoso</a></li>
-                    <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
-                </ul>
                 <!-- Lien vers le github -->
                 <h4><a href="https://github.com/LadyClaudia/orleans-0918-php-bernardiere"> &raquo; Lien vers le projet &laquo; </a></h4>
                 <!-- Gif -->
                 <img src="img/Projet2.gif" class="gif" alt="gif du site de la Bernardière">
             </section>
-        
+            <div>
+                <a href="#haut" class="buttonRetour"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
         </main>
         
         <!-- Bas de page -->
@@ -77,5 +88,7 @@
             <p>2020 &copy; Jessica Viel</p>
         </footer>
         
+        <!-- Script -->
+        <script src="https://kit.fontawesome.com/e58bdc1b83.js" crossorigin="anonymous"></script>
     </body>
 </html>

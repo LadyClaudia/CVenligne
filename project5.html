@@ -11,7 +11,7 @@
         <link rel="icon" type="image/jpg" href="img/licorne.jpg">
         <title>Jessica Viel | Projet 5</title>
     </head>
-    <body>
+    <body id="haut">
 
         <!-- Entête de la page -->
         <header>
@@ -33,45 +33,55 @@
 
         <!-- Main -->
         <main>
+            <div class="overlay"></div>
             <!-- Projet -->
             <section class="pageproject">
                 <h2>Thanin's World</h2>
                 <span class="separator"></span>
-                <h3>Création d'un mini jeu de plateforme suite à ma formation Udemy de H2Prog</h3> 
-                <h4>Objectifs :</h4> 
-                <ul>
-                    <li>Présentation de l'activité</li>
-                    <li>Présentation de l'équipe</li>
-                    <li>Formulaire de contact</li>
-                    <li>Console d'administration du contenu du site</li>
-                    <li>Le plus de contenu administrable possible</li>
-                </ul>
                 
-                    
-                <h4>Langages - Framework :</h4>
-                <ul>
-                    <li>Javascript</li>
-                    <li>Phaser</li>
-
-                </ul>
-                    
-                <h4>Contributeurs :</h4>
-                <ul>
-                    <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
-                </ul>
+                    <h3>Création d'un mini jeu de plateforme suite à ma formation Udemy de H2Prog</h3>
+                    <div class="container1">
+                        <div class="column1">
+                            <h4>Objectifs :</h4> 
+                            <ul>
+                                <li>Découverte du jeux vidéos en Javascript.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="column2">
+                            <h4>Langages - Framework :</h4>
+                            <ul>
+                                <li>Javascript</li>
+                                <li>Phaser</li>
+            
+                            </ul>
+                        </div>
+                        
+                        <div class="column3">
+                            <h4>Contributeurs :</h4>
+                            <ul>
+                                <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
                 <!-- Lien vers le Github -->
                 <h4><a href="https://github.com/LadyClaudia/Jeu_de_plateforme_JS"> &raquo; Lien vers le projet &laquo; </a></h4>
                 <!-- Video -->
-                <video controls width="70%" src="video/ThaninsWorld.mp4"></video>
+                <video controls src="video/ThaninsWorld.mp4"></video>
 
             </section>
-        
+            <div>
+                <a href="#haut" class="buttonRetour"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
         </main>
         
         <!-- Bas de page -->
         <footer>
             <p>2020 &copy; Jessica Viel</p>
         </footer>
-        
+
+        <!-- Script -->
+        <script src="https://kit.fontawesome.com/e58bdc1b83.js" crossorigin="anonymous"></script>
     </body>
 </html>

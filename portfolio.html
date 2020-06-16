@@ -3,14 +3,15 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width" />
-        <link rel="icon" type="image/jpg" href="pictures/unnamed.jpg">
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="description" content="Portfolio">
+        <meta name="autor" content="Jessica Viel">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="icon" type="image/jpg" href="img/licorne.jpg">
         <title>Jessica Viel | Portfolio</title>
     </head>
-    <body>
+    <body id="haut">
         <!-- Entête de la page -->
         <header>
             <div class="bgheader">
@@ -29,63 +30,74 @@
             </ul>
         </nav>
 
+        <!-- Main -->
         <main>
-            <section>
-                <h2>Projets</h2>
-                <span class="separator"></span>
-                <div id="projets">
-                    <div class="projet">
-                        <a href="project5.html">
-                            <div class="picture">
-                                <img src="img/thaninsworld.JPG" alt="mon quatrième projet" />
-                            </div>
-                            <span>Thanin's World</span>
-                            <span class="date-project">Juin 2019</span>
-                        </a>
+            <div class="overlay"></div>
+            <div class="container">
+                <!-- Projets -->
+                <section>
+                    <h2>Projets</h2>
+                    <span class="separator"></span>
+                    <div id="projets">
+                        <div class="projet">
+                            <a href="project5.html">
+                                <div class="picture">
+                                    <img src="img/thaninsworld.JPG" alt="mon quatrième projet" />
+                                </div>
+                                <span>Thanin's World</span>
+                                <span class="date-project">Juin 2019</span>
+                            </a>
+                        </div>
+                        <div class="projet">
+                            <a href="project4.html">
+                                <div class="picture">
+                                    <img src="img/cafeeric.jpg" alt="mon quatrième projet" />
+                                </div>
+                                <span>Les Cafés d'Eric</span>
+                                <span class="date-project">Nov 2018 - Janv 2019</span>
+                            </a>
+                        </div>
+                        <div class="projet">
+                            <a href="project3.html">
+                                <div class="picture">
+                                    <img src="img/Projet2_1.jpg" alt="mon troisième projet" />
+                                </div>
+                                <span>La Bernardière</span>
+                                <span class="date-project">Oct - Nov 2018 </span>
+                            </a>
+                        </div>
+                        <div class="projet">
+                            <a href="project2.html">
+                                <div class="picture">
+                                    <img src="img/Projet1_1.jpg" alt="mon second projet" />
+                                </div>
+                                <span>La journée mondiale du travail sans chaussures</span>
+                                <span class="date-project">Sept 2018</span>
+                            </a>
+                        </div>
+                        <div class="projet">
+                            <a href="project1.html">
+                                <div class="picture">
+                                    <img src="img/Forum1.jpg" alt="mon premier projet" />
+                                </div>
+                                <span>Forum rôleplay</span>
+                                <span class="date-project">2002</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="projet">
-                        <a href="project4.html">
-                            <div class="picture">
-                                <img src="img/cafeeric.jpg" alt="mon quatrième projet" />
-                            </div>
-                            <span>Les Cafés d'Eric</span>
-                            <span class="date-project">Nov 2018 - Janv 2019</span>
-                        </a>
-                    </div>
-                    <div class="projet">
-                        <a href="project3.html">
-                            <div class="picture">
-                                <img src="img/Projet2_1.png" alt="mon troisième projet" />
-                            </div>
-                            <span>La Bernardière</span>
-                            <span class="date-project">Oct - Nov 2018 </span>
-                        </a>
-                    </div>
-                    <div class="projet">
-                        <a href="project2.html">
-                            <div class="picture">
-                                <img src="img/Projet1_1.png" alt="mon second projet" />
-                            </div>
-                            <span>La journée mondiale du travail sans chaussures</span>
-                            <span class="date-project">Sept 2018</span>
-                        </a>
-                    </div>
-                    <div class="projet">
-                        <a href="project1.html">
-                            <div class="picture">
-                                <img src="img/Forum1.png" alt="mon premier projet" />
-                            </div>
-                            <span>Forum rôleplay</span>
-                            <span class="date-project">2002</span>
-                        </a>
-                    </div>
+                </section>
+                <div>
+                    <a href="#haut" class="buttonRetour"><i class="fas fa-arrow-circle-up"></i></a>
                 </div>
-            </section>
+            </div>
         </main>
 
         <!-- Bas de page -->
         <footer>
             <p>2020 &copy; Jessica Viel</p>
         </footer>
+
+        <!-- Script -->
+        <script src="https://kit.fontawesome.com/e58bdc1b83.js" crossorigin="anonymous"></script>
     </body>
 </html>

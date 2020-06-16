@@ -11,7 +11,7 @@
         <link rel="icon" type="image/jpg" href="img/licorne.jpg">
         <title>Jessica Viel | Projet 2</title>
     </head>
-    <body>
+    <body id="haut">
 
         <!-- Entête de la page -->
         <header>
@@ -33,39 +33,56 @@
 
         <!-- Main -->
         <main>
+            <div class="overlay"></div>
             <!-- Projet -->
             <section class="pageproject">
                 <h2>La journée mondiale du travail sans chaussures</h2>
                 <span class="separator"></span>
                 <h3>Création d'un site fictif OnePage pour l'Association de "la Journée mondiale du travail sans chaussures"</h3> 
-                <h4>Durée: </h4> 
-                <p>4 semaines</p>
+                <div class="container1">
+                    <div class="column1">
+                        <h4>Objectifs : </h4> 
+                        <ul>
+                            <li>Réalisation d'un premier site en Onepage</li>
+                            <li>Mise en pratique des bases HTML et CSS</li>
+                            <li>Découverte de Bootstrap</li>
+                        </ul>
+                    </div>
                     
-                <h4>Langages :</h4>
-                <ul>
-                    <li>HTML 5</li>
-                    <li>CSS 3</li>
-                    <li>Bootstrap 4</li>
-                </ul>
+                    <div class="column2">
+                        <h4>Langages :</h4>
+                        <ul>
+                            <li>HTML 5</li>
+                            <li>CSS 3</li>
+                            <li>Bootstrap 4</li>
+                        </ul>
+                    </div>    
                     
-                <h4>Contributeurs :</h4>
-                <ul>
-                    <li><a href="https://github.com/Candicedb">Candice Bourguignon</a></li>
-                    <li><a href="https://github.com/GamerPsy">Rémy Ducry</a></li>
-                    <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
-                </ul>
+                    <div class="column3">
+                        <h4>Contributeurs :</h4>
+                        <ul>
+                            <li><a href="https://github.com/Candicedb">Candice Bourguignon</a></li>
+                            <li><a href="https://github.com/GamerPsy">Rémy Ducry</a></li>
+                            <li><a href="https://github.com/LadyClaudia">Jessica Viel</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
                 <!-- Lien vers le Github -->
                 <h4><a href="https://github.com/LadyClaudia/wcsJourneeSansChaussures"> &raquo; Lien vers le projet &laquo; </a></h4>
                 <!-- Gif -->
                 <img src="img/Projet1.gif" class="gif" alt="gif du site JMTSC">
             </section>
-        
+            <div>
+                <a href="#haut" class="buttonRetour"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
         </main>
         
         <!-- Bas de page -->
         <footer>
             <p>2020 &copy; Jessica Viel</p>
         </footer>
-        
+        <!-- Script -->
+        <script src="https://kit.fontawesome.com/e58bdc1b83.js" crossorigin="anonymous"></script>
     </body>
 </html>

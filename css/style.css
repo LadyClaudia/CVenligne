@@ -80,7 +80,7 @@ h2 {
     margin: 25px auto;
     width: 400px;
     text-transform: uppercase;
-    color: #000000;
+    color: #1d1d1d;
 }
 
 h2:before {
@@ -107,7 +107,7 @@ mark {
 }
 
 a {
-    color: black;
+    color: #1d1d1d;
     text-decoration: none;
 }
 
@@ -150,6 +150,22 @@ footer {
     right: 40px;
 }
 
+.buttonLeft {
+    font-size: 250%;
+    color: rgba(208, 178, 243, 0.5970763305322129);
+    position: fixed;
+    left: 40px;
+    top: 425px;
+}
+
+.buttonRight {
+    font-size: 250%;
+    color: rgba(208, 178, 243, 0.5970763305322129);
+    position: fixed;
+    right: 40px;
+    top: 425px;
+}
+
 .citation {
     text-align: center;
 }
@@ -160,6 +176,11 @@ footer {
 
 .column3 {
     width: 100%
+}
+
+.contactLink {
+    text-align: left;
+    margin: auto;
 }
 
 .container {
@@ -183,8 +204,26 @@ footer {
     width: 800px;
 }
 
+.hobbies {
+    text-align: center;
+}
+
+.hobbies ul {
+    display: inline;
+    padding: 0;
+}
+
+.hobbies li {
+    display: inline;
+    margin: 20px;
+}
+
+.hobbies img {
+    width: 70px;
+}
+
 .imgCitation {
-    background: url(../img/fondCitation.png) center no-repeat;
+    background: url(../img/test.png) center no-repeat;
     background-size: contain;
     padding: 70px;
 }
@@ -203,6 +242,12 @@ footer {
     display: flex;
 }
 
+.music {
+    background: url(../img/music3.png) center no-repeat;
+    background-size: contain;
+    padding: 75px;
+    margin: auto 10%;
+}
 .overlay {
     background: #f4f7f6;
     opacity: .7;
@@ -295,6 +340,8 @@ footer {
     border-radius: 15px;
     margin-bottom: 50px;
     padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #projets {
